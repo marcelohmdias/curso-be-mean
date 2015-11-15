@@ -1,11 +1,9 @@
-[
-  {"pkdx_id":1,"name":"Bulbasaur","attack":49,"defense":49,"species":"Seed","height":"7","weight":"69","speed":45,"types":[{"name":"poison"},{"name":"grass"}],"evolutions":[{"level":16,"to":"Ivysaur"}]},
-  {"pkdx_id":2,"name":"Ivysaur","attack":62,"defense":63,"species":"Seed","height":"10","weight":"69","speed":60,"types":[{"name":"poison"},{"name":"grass"}],"evolutions":[{"level":32,"to":"Venusaur"}]},
-  {"pkdx_id":3,"name":"Venusaur","attack":82,"defense":83,"species":"","height":"20","weight":"1000","speed":80,"types":[{"name":"poison"},{"name":"grass"}],"evolutions":[{"detail":"mega","to":"Venusaur-Mega"}]},
-  {"pkdx_id":4,"name":"Charmander","attack":52,"defense":43,"species":"","height":"6","weight":"85","speed":65,"types":[{"name":"fire"}],"evolutions":[{"level":16,"to":"Charmeleon"}]},
-  {"pkdx_id":4,"name":"Charmeleon","attack":64,"defense":58,"species":"","height":"11","weight":"190","speed":80,"types":[{"name":"fire"}],"evolutions":[{"level":36,"to":"Charizard"}]},
-  {"pkdx_id":6,"name":"Charizard","attack":84,"defense":78,"species":"","height":"17","weight":"905","speed":100,"types":[{"name":"fire"}],"evolutions":[{"detail":"mega","to":"Charizard-mega-y"},{"detail":"mega","to":"Charizard-mega-x"}]},
-  {"pkdx_id":7,"name":"Squirtle","attack":48,"defense":65,"species":"","height":"5","weight":"90","speed":64,"types":[{"name":"water"}],"evolutions":[{"level":16,"to":"Wartortle"}]},
-  {"pkdx_id":8,"name":"Wartortle","attack":63,"defense":80,"species":"","height":"10","weight":"225","speed":58,"types":[{"name":"water"}],"evolutions":[{"level":36,"to":"Blastoise"}]},
-  {"pkdx_id":9,"name":"Blastoise","attack":83,"defense":100,"species":"","height":"16","weight":"885","speed":78,"types":[{"name":"water"}],"evolutions":[{"detail":"mega","to":"Blastoise-mega"}]}
-]
+{"pkdx_id":1,"name":"Bulbasaur","attack":49,"defense":49,"species":"Seed","height":"7","weight":"69","speed":45,"types":[{"name":"poison"},{"name":"grass"}],"evolutions":[{"level":16,"to":"Ivysaur"}]}
+{"pkdx_id":2,"name":"Ivysaur","attack":62,"defense":63,"species":"Seed","height":"10","weight":"69","speed":60,"types":[{"name":"poison"},{"name":"grass"}],"evolutions":[{"level":32,"to":"Venusaur"}]}
+{"pkdx_id":3,"name":"Venusaur","attack":82,"defense":83,"species":"","height":"20","weight":"1000","speed":80,"types":[{"name":"poison"},{"name":"grass"}],"evolutions":[{"detail":"mega","to":"Venusaur-Mega"}]}
+{"pkdx_id":4,"name":"Charmander","attack":52,"defense":43,"species":"","height":"6","weight":"85","speed":65,"types":[{"name":"fire"}],"evolutions":[{"level":16,"to":"Charmeleon"}]}
+{"pkdx_id":4,"name":"Charmeleon","attack":64,"defense":58,"species":"","height":"11","weight":"190","speed":80,"types":[{"name":"fire"}],"evolutions":[{"level":36,"to":"Charizard"}]}
+{"pkdx_id":6,"name":"Charizard","attack":84,"defense":78,"species":"","height":"17","weight":"905","speed":100,"types":[{"name":"fire"}],"evolutions":[{"detail":"mega","to":"Charizard-mega-y"},{"detail":"mega","to":"Charizard-mega-x"}]}
+{"pkdx_id":7,"name":"Squirtle","attack":48,"defense":65,"species":"","height":"5","weight":"90","speed":64,"types":[{"name":"water"}],"evolutions":[{"level":16,"to":"Wartortle"}]}
+{"pkdx_id":8,"name":"Wartortle","attack":63,"defense":80,"species":"","height":"10","weight":"225","speed":58,"types":[{"name":"water"}],"evolutions":[{"level":36,"to":"Blastoise"}]}
+{"pkdx_id":9,"name":"Blastoise","attack":83,"defense":100,"species":"","height":"16","weight":"885","speed":78,"types":[{"name":"water"}],"evolutions":[{"detail":"mega","to":"Blastoise-mega"}]}

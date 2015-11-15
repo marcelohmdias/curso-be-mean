@@ -197,7 +197,7 @@ MH-Note(mongod-3.0.7) be-mean-pokemons> db.pokemons.find()
     }
     {
       "_id": ObjectId("56429daa1d39d3a4a2de6439"),
-      "pkdx_id": 4,
+      "pkdx_id": 5,
       "name": "Charmeleon",
       "attack": 64,
       "defense": 58,
@@ -352,7 +352,7 @@ MH-Note(mongod-3.0.7) be-mean-pokemons>
 ```
 MH-Note(mongod-3.0.7) be-mean-pokemons> poke.description = 'Ivysaur digivolve para...Não pera!?!?!?! #404.'
 	Ivysaur digivolve para...Não pera!?!?!?! #404.
-MH-Note(mongod-3.0.7) be-mean-pokemons>
+MH-Note(mongod-3.0.7) be-mean-pokemons> db.pokemons.save(poke)
 MH-Note(mongod-3.0.7) be-mean-pokemons> poke
     {
       "_id": ObjectId("56429daa1d39d3a4a2de6436"),

@@ -256,9 +256,9 @@ Para passarmos algum valor para estas funções seguimos a regra da passagem de 
 
 ## Considerações Finais
 
-Viu como entender os conceitos nos ajuda a tornar a programação mesmos custosa.
+Viu como entender os conceitos nos ajuda a tornar a programação menos custosa. Ainda assim, tem muito chão pela frente. Ecma2015 mal saiu e já estão falando da próxima, a linguagem cresce e nós crescemos juntos.
 
-Espero que tenham gostado, e principalmente aprendido  um pouco sobre como funciona essa incrível linguagem.
+Espero que tenham gostado, e principalmente entendito um pouco sobre o que tentei passar sobre os conceitos de instanciação, e também como funciona essa incrível linguagem.
 
 Bem, até a proxima! Isso mesmo vai ter próxima (agradeçam ao professor....Valeu [Suissa](https://github.com/suissa)).
 
@@ -271,3 +271,5 @@ Bem, até a proxima! Isso mesmo vai ter próxima (agradeçam ao professor....Val
 5. [MDN - Closures](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Closures)
 6. [Tutsmais: O que é IIFE no JavaScript? - Felquis](http://tutsmais.com.br/blog/javascript-2/o-que-e-iife-no-javascript/)
 [Wikipédia - Variável Global](https://pt.wikipedia.org/wiki/Vari%C3%A1vel_global)
+
+> [Voltar](https://github.com/marcelohmdias/be-mean-modulo-mongodb/tree/master/articles)

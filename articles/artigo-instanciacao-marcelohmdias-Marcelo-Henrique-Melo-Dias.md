@@ -2,7 +2,20 @@
 
 **Autor:** Marcelo H M Dias
 
-Neste artigo pretendo explicar um pouco sobre como funciona a instanciação no  ecossistema do JS, o porquê de alguns comportamentos que ele possui e como possibilitar um desenvolvimento sem "dor de cabeça". Afinal a gente tá aque é pra se divertir.
+Neste artigo pretendo explicar um pouco sobre alguns conceitos de instanciação no  ecossistema do JavaScript. O porquê de alguns comportamentos. E como possibilitar um desenvolvimento sem "dor de cabeça". Afinal a gente está aqui é pra se divertir.
+
+Então mãos a obra!!!
+
+- [Artigo Instanciação](#)
+	- [Hoisting](#hoisting)
+	- [Closure](#closure)
+	- [Variável Global](#variavel-global)
+	- [Variável por parâmetro](#variavel-por-parametro)
+	- [Instanciação usando uma IIFE](#instanciacao-usando-uma-iife)
+	- [Considerações Finais](#consideracoes-finais)
+	- [Referencial Teórico](#referencial-teorico)
+
+######**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
 
 ## Hoisting
 

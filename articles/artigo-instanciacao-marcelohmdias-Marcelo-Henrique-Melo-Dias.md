@@ -2,9 +2,21 @@
 
 **Autor:** Marcelo H M Dias
 
-Neste artigo pretendo explicar um pouco sobre alguns conceitos de instanciação no  ecossistema do JavaScript. O porquê de alguns comportamentos. E como possibilitar um desenvolvimento sem "dor de cabeça". Afinal a gente está aqui é pra se divertir.
+Neste artigo pretendo explicar um pouco sobre alguns conceitos de instanciação no  ecossistema do Javascript. O porquê de alguns comportamentos. E como possibilitar um desenvolvimento sem "dor de cabeça". Afinal a gente está aqui é pra se divertir.
 
 Então mãos a obra!!!
+
+Primeiramente, precisamos entender o que é instanciação. Segundo o site [Dicionário Informal](http://www.dicionarioinformal.com.br/instancia%C3%A7%C3%A3o/), instanciação é:
+
+>Ação de instanciar; Criar algo sempre diferente do seu conceito básico dado o nível de complexidade e capacidade polissêmica de inovar e mudar constantemente para dar conta de atender um conceito para determinado conexto real, se traduz em um novo conceito.
+
+O site ainda completa:
+
+>"A instanciação significa a criação de um nova instância, por meio da criação de uma variante do material"
+
+Podemos chegar a conclusão de que instanciação é o ato criação de novos "objetos" (entenda objeto aqui como um item genêrico), ou mesmo a replica de um já existente.
+
+Ok, mas como isso é feito em Javascript? Isso vamos descobri a seguir.
 
 - [Artigo Instanciação](#)
 	- [Hoisting](#hoisting)
@@ -19,7 +31,7 @@ Então mãos a obra!!!
 
 ## Hoisting
 
-Em JavaScript *hoisting* é a elevação ou hasteamento das declarações de funções e/ou variáveis, estes são elevados para o topo do escopo (*Escopo* é a área no código que delimita a visibilidade das declarações). Isso ocorre devido a precedência do processamento em relação à execução dos códigos.
+Em Javascript *hoisting* é a elevação ou hasteamento das declarações de funções e/ou variáveis, estes são elevados para o topo do escopo (*Escopo* é a área no código que delimita a visibilidade das declarações). Isso ocorre devido a precedência do processamento em relação à execução dos códigos.
 
 Para tornar mais clara a explicação veja o exemplo logo abaixo, ou se preferirem executem o código para ver como a mágica acontece.
 
@@ -38,9 +50,9 @@ foo(); // Irá imprimir o valor da variável
 console.log(bar + 1); // Impime o valor da soma: 11
 ```
 
-Como podem perceber, mesmo a iniciação da variavel ocorrendo bem antes de sua declaração ( que no JS é feita com o a palavra `var` para variáveis locais) o código roda sem problema nenhum. Em outras palavras, nossa variável foi içada para o topo do nosso código em tempo de execução.
+Como podem perceber, mesmo a iniciação da variavel ocorrendo bem antes de sua declaração (que no JS é feita atravé da palavra `var` para variáveis locais) o código roda sem problema nenhum. Em outras palavras, nossa variável foi içada para o topo do nosso código em tempo de execução.
 
-Quando utilizamos variáveis, apenas a declaração é *hoisted*. Mesmo que ela seja elevada, a sua inicialização não é feita, o que pode gerar alguns erros e/ou eventos inesperados.
+Quando utilizamos variáveis, apenas a declaração é *hoisted*. Mesmo que ela seja elevada, o valor com o qual efetuamos sua inicialização não sofre este processo, o que pode gerar alguns erros e/ou eventos inesperados.
 
 ```javascript
 console.log(foo); //Console imprime undefined
@@ -50,7 +62,7 @@ var foo = 5; // Váriavel é declarada e inicializada
 console.log(foo); // Imprime o valor de foo: 5
 ```
 
-No exemplo anterior, o valor é impresso como *undefined*, pois a variável `foo` já existe no escopo, apenas não possui um valor atribuido. No segundo console por outro lado, o valor de nossa variável é impresso sem nenhum erro.
+No exemplo anterior, o valor é impresso como *undefined*, isso por que a variável `foo` já existe no escopo, apenas não possui um valor atribuido. No segundo console por outro lado, o valor de nossa variável é impresso sem nenhum erro.
 
 Já no caso das funções o hasteamento ocorre de forma diferente. Toda a estrutura do código é *hoisted*, e não apenas seu nome, como acontece com as variáveis.
 
@@ -138,10 +150,8 @@ Traduzindo o texto do Wikipédia, variáveis globais são variáveis que podem s
 
 ```javascript
 function foo1() {
-	/*****************************************
-	* Variável Local
-	* Acessada apenas dentro da função foo1
-	******************************************/
+	// Variável Local
+	// Acessada apenas dentro da função foo1
 	var bar1 = 1;
 
 	// Variáveis globais

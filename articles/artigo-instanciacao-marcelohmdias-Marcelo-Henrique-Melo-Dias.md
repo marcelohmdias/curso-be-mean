@@ -50,7 +50,7 @@ foo(); // Irá imprimir o valor da variável
 console.log(bar + 1); // Impime o valor da soma: 11
 ```
 
-Como podem perceber, mesmo a iniciação da variavel ocorrendo bem antes de sua declaração (que no JS é feita atravé da palavra `var` para variáveis locais) o código roda sem problema nenhum. Em outras palavras, nossa variável foi içada para o topo do nosso código em tempo de execução.
+Como podem perceber, mesmo a iniciação da variavel ocorrendo bem antes de sua declaração (que no JS é feita através da palavra `var` para variáveis locais) o código roda sem problema nenhum. Em outras palavras, nossa variável foi içada para o topo do nosso código em tempo de execução.
 
 Quando utilizamos variáveis, apenas a declaração é *hoisted*. Mesmo que ela seja elevada, o valor com o qual efetuamos sua inicialização não sofre este processo, o que pode gerar alguns erros e/ou eventos inesperados.
 

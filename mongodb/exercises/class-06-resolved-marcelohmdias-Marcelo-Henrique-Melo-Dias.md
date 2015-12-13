@@ -279,3 +279,8 @@ MH-Note(mongod-3.0.7) be-mean> db.pokemons.find(query).explain('executionStats')
 }
 MH-Note(mongod-3.0.7) be-mean>
 ```
+
+|        |        |        |
+|--------|--------|--------|
+| [<< Anterior](https://github.com/marcelohmdias/curso-be-mean/blob/master/mongodb/exercises/class-05-resolved-marcelohmdias-Marcelo-Henrique-Melo-Dias.md) | [ Voltar](https://github.com/marcelohmdias/be-mean-modulo-mongodb/tree/master/exercises)| Próximo >> |
+|        |        |        |

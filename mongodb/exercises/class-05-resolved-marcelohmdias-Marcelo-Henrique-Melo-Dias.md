@@ -425,3 +425,8 @@ MH-Note(mongod-3.0.7) be-mean> db.pokemons.count({defense: {$gt: 70}})
 	250
 MH-Note(mongod-3.0.7) be-mean>
 ```
+
+|        |        |        |
+|--------|--------|--------|
+| [<< Anterior](https://github.com/marcelohmdias/curso-be-mean/blob/master/mongodb/exercises/class-04-resolved-marcelohmdias-Marcelo-Henrique-Melo-Dias.md) | [ Voltar](https://github.com/marcelohmdias/be-mean-modulo-mongodb/tree/master/exercises)| [Próximo >>](https://github.com/marcelohmdias/curso-be-mean/blob/master/mongodb/exercises/class-06-resolved-marcelohmdias-Marcelo-Henrique-Melo-Dias.md) |
+|        |        |        |

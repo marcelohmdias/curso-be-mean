@@ -21,4 +21,7 @@ MH-Note(mongod-3.0.7) be-mean> db.restaurantes.find({}).count()
 MH-Note(mongod-3.0.7) be-mean> 
 ```
 
-> [Voltar](https://github.com/marcelohmdias/be-mean-modulo-mongodb/tree/master/exercises)
+|        |        |        |
+|--------|--------|--------|
+| << Anterior | [ Voltar](https://github.com/marcelohmdias/be-mean-modulo-mongodb/tree/master/exercises)| [Próximo >>](https://github.com/marcelohmdias/curso-be-mean/blob/master/mongodb/exercises/class-02-resolved-marcelohmdias-Marcelo-Henrique-Melo-Dias.md) |
+|        |        |        |
